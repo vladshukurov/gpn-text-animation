@@ -1,0 +1,17 @@
+{
+  "name": "gpn-hr-motion",
+  "version": "1.0.0",
+  "description": "Анимации HR-портала «Газпром нефть»: появление заголовка по буквам и лоадер",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./text-reveal": {
+      "types": "./text-reveal/text-reveal.d.ts",
+      "default": "./text-reveal/text-reveal.js"
+    },
+    "./text-reveal.css": "./text-reveal/text-reveal.css",
+    "./loader.css": "./loader/loader.css"
+  },
+  "files": ["text-reveal", "loader"],
+  "sideEffects": ["*.css"]
+}
